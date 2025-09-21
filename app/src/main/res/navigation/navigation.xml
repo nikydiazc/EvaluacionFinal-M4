@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_listadoDeLibros_to_integrantes2"
             app:destination="@id/integrantes" />
+        <action
+            android:id="@+id/action_listadoDeLibros_to_detalle"
+            app:destination="@id/detalle" />
     </fragment>
 
     <fragment
@@ -29,4 +32,8 @@
         android:name="cl.unab.evaluacionfinal_m4.Integrantes"
         android:label="fragment_integrantes"
         tools:layout="@layout/integrantes" />
+    <fragment
+        android:id="@+id/detalle"
+        android:name="cl.unab.evaluacionfinal_m4.Detalle"
+        android:label="Detalle" />
 </navigation>
