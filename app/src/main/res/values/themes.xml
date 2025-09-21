@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EvaluacionFinalM4" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/Redlight</item>
+        <item name="colorOnPrimary">@color/Yellow</item>
+        <item name="colorSecondary">@color/Orange</item>
+        <item name="colorOnSecondary">@color/Yellow</item>
+    </style>
+
+    <style name="Theme.EvaluacionFinalM4" parent="Base.Theme.EvaluacionFinalM4">
+        <item name="textFillColor">@color/Redlight</item>
+        <item name="backgroundColor">@color/Yellow</item>
+        <item name="colorSecondary">@color/Orange</item>
+        <item name="colorOnSecondary">@color/Yellow</item>
+    </style>
+
+</resources>

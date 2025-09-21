@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="cl.unab.evaluacionfinal_m4.Inicio"
+        android:label="Inicio" >
+        <action
+            android:id="@+id/action_inicio_to_listadoDeLibros"
+            app:destination="@id/listadoDeLibros" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listadoDeLibros"
+        android:name="cl.unab.evaluacionfinal_m4.ListadoDeLibros"
+        android:label="fragment_listado_de_libros"
+        tools:layout="@layout/listado_de_libros" >
+        <action
+            android:id="@+id/action_listadoDeLibros_to_integrantes2"
+            app:destination="@id/integrantes" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/integrantes"
+        android:name="cl.unab.evaluacionfinal_m4.Integrantes"
+        android:label="fragment_integrantes"
+        tools:layout="@layout/integrantes" />
+</navigation>
