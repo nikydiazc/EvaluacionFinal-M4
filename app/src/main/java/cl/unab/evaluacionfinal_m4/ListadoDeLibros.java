@@ -49,7 +49,7 @@ public class ListadoDeLibros extends Fragment {
                 String titulo = "Juego de Tronos: Canción de Hielo y Fuego 1";
                 String autor = "George R.R. Martin";
                 int imagen = R.drawable.juegodetronos1;
-                String descripcion = "«Cuando se juega al juego de tronos, solo se puede ganar o morir." +
+                String descripcion = "Cuando se juega al juego de tronos, solo se puede ganar o morir." +
                         " No hay puntos intermedios.» En un mundo diferente al nuestro, en el que los veranos y" +
                         " los inviernos duran generaciones, un gran conflicto está a punto de estallar." +
                         " Robert Baratheon ocupa el Trono de Hierro en el cálido y opulento sur de Poniente." +
@@ -60,7 +60,7 @@ public class ListadoDeLibros extends Fragment {
                         " de ojos azules y fríos que se ocultan en las sombras de los bosques y que les arrebatan" +
                         " la vida y la mente a aquellos desafortunados que se cruzan en su camino?" +
                         " El final del verano está próximo, se acerca el invierno y solo un milagro" +
-                        " podrá disipar las tinieblas..";
+                        " podrá disipar las tinieblas.";
                 listener.onDetalleRequested(titulo, autor, imagen, descripcion);
             }
         });
